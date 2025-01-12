@@ -1,0 +1,4 @@
+data/samples/*
+results/*
+# Ignore all Jupyter notebook checkpoints
+.ipynb_checkpoints/
