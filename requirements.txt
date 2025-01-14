@@ -1,3 +1,19 @@
-openai-whisper
-torch
-sentence-transformers
+# Core dependencies
+openai-whisper                # For Whisper transcription model (if needed)
+torch                         # PyTorch for deep learning models
+torchvision                   # PyTorch image utilities
+torchaudio                    # PyTorch audio utilities
+sentence-transformers         # For text segmentation and sentence embeddings
+
+# Google Gemini API dependencies
+google-generativeai           # For using Gemini AI models
+python-dotenv                 # For managing environment variables (.env file)
+
+# Additional dependencies
+tensorflow                    # Required by some Gemini API models
+tensorflow-addons             # Extra utilities for TensorFlow
+pytube                        # For downloading YouTube videos (if needed)
+
+# Ensure compatibility with specific CUDA versions
+# Only include this if running with CUDA 11.8
+-f https://download.pytorch.org/whl/cu118
