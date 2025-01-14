@@ -109,7 +109,7 @@ transcription_result = transcribe_video_with_segmented_chapters(video_file_path)
 
 #### **Text File**
 ```python
-# Replace 'video.mp4' with 'document.txt'
+# Path: data/samples/document.txt
 transcription_result = transcribe_document_with_segmented_chapters(text_file_path)
 ```
 
