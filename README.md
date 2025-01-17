@@ -95,7 +95,6 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add:
 ```ini
 GEMINI_API_KEY=your_api_key_here
-ASSEMBLYAI_API_KEY=your_api_key_here
 ```
 
 ---
