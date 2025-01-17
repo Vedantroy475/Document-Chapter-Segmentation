@@ -17,3 +17,8 @@ pytube                        # For downloading YouTube videos (if needed)
 # Ensure compatibility with specific CUDA versions
 # Only include this if running with CUDA 11.8
 -f https://download.pytorch.org/whl/cu118
+
+yt-dlp                        # Advanced YouTube video downloader
+uuid                          # For generating unique identifiers
+ffmpeg                        # For audio and video processing
+
