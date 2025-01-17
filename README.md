@@ -1,4 +1,4 @@
-**# Document Chapter Segmentation
+# Document Chapter Segmentation
 
 ## Overview
 This project processes large documents, including **audio files**, **video files**, and **text files**, and segments them into meaningful chapters. It integrates **Google’s Gemini AI models** for transcription and chapter segmentation while incorporating **evaluation metrics** to assess segmentation accuracy.
